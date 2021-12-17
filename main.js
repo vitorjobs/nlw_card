@@ -12,11 +12,11 @@ function changeSocialMediaLinks() {
 
     li.children[0].href = `https://${social}.com/${LinksSocialMedia[social]}`
 
-    alert(li.children[0].href)
+    //alert(li.children[0].href)
   }
 }
 
-//changeSocialMediaLinks()
+changeSocialMediaLinks()
 
 // BUSCAR INFORMAÇÕES DE UM PERFIL DO GITHUB
 function getGitHubProfileInfos(){
